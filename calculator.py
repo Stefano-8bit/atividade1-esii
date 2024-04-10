@@ -25,3 +25,11 @@ def mult(num1, num2):
     return num1 * num2
 print(f"Multiplicação dos numeros {num1} e {num2} Resulta em: ", int(mult(num1, num2)))
 
+# retorna a raiz quadrada
+def square(num1):
+    if num1 < 0:
+        print("❌Não é possivel fazer a raiz de um numero negativo❌")
+        return False
+    return math.sqrt(num1)
+print(f"Raiz quadrada do numero {num1} Resulta em: ", (square(num1)))
+print('Numeros selecionados para a operação: ', num1, num2)
